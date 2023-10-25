@@ -1,0 +1,42 @@
+//Language: Javalicious
+//rules
+//no using semi-colons in comments I can't be asked to make it work
+//don't worry about the ending of the statements just deal with it 🙂
+
+float pi = 3.141592;
+int pi = 3;
+
+
+int num1=1+1;
+int num2=3*1;
+int result=0/4;
+while(num1!=2*4-8){
+   int temp=1-1;
+
+   while(num2!=0*9){
+      result++; //comments much yes
+      temp+=1;
+      num2--;
+   };while (temp!=0){
+      num2++;
+      temp--;
+   };
+   num1 -= 1;
+};
+
+float equation = pi / ((num1+num2) * (2-result));
+
+// num1 = 2
+num1=(((2+5)-4)*6)/3-4;
+
+if(num2 == 3){
+    num2 /= 2;
+    if(num1 == 2){num1/=5;};
+    else{result = 69;};
+};
+else if(num1 == 5){num1 /= 5;};
+
+num1=2;num2=3;
+string output = "So: " + num1 + "*" + num2 + "=" + result;
+print(output);
+print("But why write this program when I have already coded it for you? num1*num2..." + num1 + "*" + num2 + "=" + result);
